@@ -37,7 +37,7 @@ export * from './Header.tsx
 
 ## How to use it?
 1. Create `utils` folder in root of your project: `/utils`
-2. Create in this folder `generateComponent.js` and put the code in this one file
+2. Create in this folder `generateComponent.js` and put the code in this file
 3. Go to `package.json` and add to scripts this command: `"createComponent": "node utils/generateComponent.js"`
 4. Go to terminal and run the command: `npm run createComponent -- src/path/to/folder/NameOfComponent` <br>
    Example: `npm run createComponent -- src/components/Header`
